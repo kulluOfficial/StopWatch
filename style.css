@@ -1,0 +1,37 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #8833FF;
+}
+.digit{
+    font-size: 120px;
+    font-weight: bold;
+}
+.text{
+    font-size: 30px;
+    font-weight: bold;
+}
+.btn{
+    font-size: 30px;
+    border: 1px solid #8833FF;
+    cursor: pointer;
+    margin: 20px 20px;
+    padding: 7px 50px;
+    border-radius: 10px;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+#start{
+    background-color: #A9E520;
+}
+#stop{
+    background-color: #20E5A7;
+}
+#reset{
+    background-color: red;
+}
